@@ -1,7 +1,22 @@
 # sylt
 Sylt = Sylt is a silly Yet Lightweight Textdatenverarbeitungsmaschinenbefehlssprachenformatbibliothek
 
-# ideas
+Böse Zungen behaupten, das hier wäre nur das deutsche Java...
+
+## Verwandtes
+
+### Viege
+
+Tut so ähnliche Dinge wie Gradle bei Java. 
+Ist benannt nach der Wiege, aber mit nem anderen Anfangsbuchstaben, damit es cooler klingt. Siehe https://en.wikipedia.org/wiki/Gradle#Origin_of_the_name
+
+Dateien hierzu:
+
+- `baue.viege`
+- `viegev` steht für "Viege Verpackung"
+- `viegev.hau` ist das Viege Verpackung Schriftstück für die Winzigweich<sup>TM</sup> Windauge<sup>TM</sup> Schriftensprache zur Haufen-Verarbeitung
+
+# Ideen
 
 Aufteilung Fehler (Kern weggeschmissen)
 

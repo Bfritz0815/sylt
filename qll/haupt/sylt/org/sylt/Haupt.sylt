@@ -1,0 +1,11 @@
+Packung kör.sylt; // Packung für die Sylt-Anwendung der Sylt Körperschaft
+
+öffentlich Klasse Haupt {
+    statisch Leere haupt() {
+        EA.druckeZei(Zeichenkette.darstelle("Hallo und willkommen!"));
+
+        für (ganz i = 1; i <= 5; i++) {
+            EA.druckeZei("i = " + i);
+        }
+    }
+}
