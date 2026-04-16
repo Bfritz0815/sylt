@@ -1,0 +1,5 @@
+package kör.sylt;
+
+öffentliche Aufzählung Tierart {
+    HUND, KATZE, MAUS, BÄR;
+}

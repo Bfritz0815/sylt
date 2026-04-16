@@ -1,11 +1,29 @@
 Packung kör.sylt; // Packung für die Sylt-Anwendung der Sylt Körperschaft
 
-öffentlich Klasse Haupt {
+Einfuhr kör.sylt.Tierart;
+
+öffentliche Klasse Haupt {
     statisch Leere haupt() {
         EA.druckeZei(Zeichenkette.darstelle("Hallo und willkommen!"));
 
         für (ganz i = 1; i <= 5; i++) {
             EA.druckeZei("i = " + i);
+        }
+
+        Tierart Rex = Tierart.HUND; // gute deutsche Veränderliche werden in korrekter Groß/Kleinschreibung geschrieben
+
+        Schalter(Rex){
+            Fall Tierart.HUND:
+                EA.druckeZei("WUFF!");
+                erbreche;
+            Fall Tierart.KATZE:
+                EA.druckeZei("MIAU!");
+                erbreche;
+            Fall Tierart.MAUS:
+                EA.druckeZei("PIEPS!");
+                erbreche;
+            Standardfall:
+                EA.drucke("Häääää?!?");
         }
     }
 }
